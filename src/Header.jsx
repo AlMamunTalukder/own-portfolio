@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Header = () => {
   return (
-    <div className="lg:flex lg:mt-20 lg:gap-28 lg:ml-16 items-center content-center text-center mb-12">
+    <div className="lg:flex lg:mt-20 lg:gap-28 lg:ml-16 items-center content-center text-center mb-12 ">
       <div className="text-left  lg:pr-3 ">
         <h1 className="text-3xl lg:text-7xl mb-5 pl-6">
           Hello, I’m <br />

@@ -1,13 +1,11 @@
 const Projects = () => {
   return (
     <>
-      <h1 className="text-3xl lg:text-7xl mb-5 pl-6 font-bold text-orange-400 ">
-        <div className="divider" />
+      <h1 className="text-3xl lg:text-6xl  pl-6 pb-5 font-serif text-orange-400 shadow-lg underline">
         Projects
-        <div className="divider" />
       </h1>
 
-      <div className="mt-10 grid grid-cols-3 gap-y-5">
+      <div className=" grid grid-cols-3 gap-y-5">
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
@@ -18,13 +16,27 @@ const Projects = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">News Paper Portal</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-start">
-              <button className="btn btn-primary">Live</button>
-            </div>
-            <div className="card-actions justify-end -mt-14">
-              <button className="btn btn-primary">Github</button>
-            </div>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
@@ -36,11 +48,28 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 className="card-title">News Paper Portal</h2>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
@@ -52,11 +81,28 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 className="card-title">News Paper Portal</h2>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
@@ -68,11 +114,28 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 className="card-title">News Paper Portal</h2>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
@@ -84,11 +147,28 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 className="card-title">News Paper Portal</h2>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
         <div className="rounded-md w-96 bg-base-100 shadow-xl ">
@@ -100,11 +180,28 @@ const Projects = () => {
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
+            <h2 className="card-title">News Paper Portal</h2>
+            <p className="text-justify">
+              This is a newpaper website name global Times. It has many more
+              features. Here is some features: Login, registration with google
+              login. Subscription system for premium user. Show articles, add
+              articles, articles are difference for premium user and other user.
+            </p>
+
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              rel="noopener noreferrer"
+            >
+              Live Link
+            </a>
+            <a
+              href="https://github.com/AlMamunTalukder/newspaper-client"
+              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              rel="noopener noreferrer"
+            >
+              Github Link
+            </a>
           </div>
         </div>
       </div>

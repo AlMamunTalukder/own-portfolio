@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <section className="mt-8">
+    <section className="mt-8 shadow-lg">
       <div className="container mx-auto">
         <div className="flex flex-col items-center w-full p-32 space-y-4 rounded-md lg:h-full lg:p-8  bg-gray-900  text-gray-100">
           <h1 className="text-3xl lg:text-6xl mb-5 pl-6 underline">About Me</h1>
