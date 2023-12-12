@@ -5,19 +5,19 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { PiLaptopLight } from "react-icons/pi";
 const WorkProcess = () => {
   return (
-    <section className=" bg-gray-800  text-gray-100 my-10 shadow-lg  rounded-md">
-      <div className="container px-6 py-12 mx-auto">
-        <div className="grid items-center gap-4 xl:grid-cols-5">
-          <div className="max-w-2xl mx-auto my-4 space-y-2 text-center xl:col-span-2 xl:text-left">
-            <h2 className="text-4xl font-bold">Work Process</h2>
+    <section className=" bg-gray-800  text-gray-100 lg:my-10 shadow-lg  rounded-md">
+      <div className="container lg:px-6 lg:py-12 mx-auto">
+        <div className="grid items-center lg:gap-4 xl:grid-cols-5">
+          <div className="max-w-2xl mx-auto my-2 lg:my-4 lg:space-y-2 text-center xl:col-span-2 xl:text-left">
+            <h2 className="text-4xl font-bold ">Work Process</h2>
             <div className="flex  gap-2 justify-center">
               <p className=" text-gray-400 ">Work with 4 steps</p>{" "}
               <FaArrowRight className="mt-1" />
             </div>
           </div>
-          <div className="p-6 xl:col-span-3">
-            <div className="grid  md:grid-cols-2">
-              <div className="grid text-left gap-4 ml-10 mb-5">
+          <div className="lg:p-6 lg:col-span-3">
+            <div className="grid ml-6 md:grid-cols-2 my-4">
+              <div className="grid text-left gap-4 lg:ml-10 mb-5">
                 <div className="p-3 rounded shadow-md w-64 bg-gray-900">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">
@@ -45,7 +45,7 @@ const WorkProcess = () => {
                 </div>
               </div>
 
-              <div className="grid text-left gap-4 mt-5">
+              <div className="grid text-left gap-4 lg:mt-5">
                 <div className="p-3 rounded shadow-md w-64 bg-gray-900">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">

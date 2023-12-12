@@ -1,12 +1,12 @@
 const Projects = () => {
   return (
     <>
-      <h1 className="text-3xl lg:text-6xl  pl-6 pb-5 font-serif text-orange-400 shadow-lg underline">
+      <h1 className="text-3xl lg:text-6xl  pl-6 pb-5 font-serif text-orange-400 underline">
         Projects
       </h1>
 
-      <div className=" grid grid-cols-3 gap-y-5">
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-y-5">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -39,7 +39,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -72,7 +72,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -105,7 +105,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -138,7 +138,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -171,7 +171,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"

@@ -54,7 +54,7 @@ const ContactMe = () => {
             <input
               type="text"
               placeholder="Leroy Jenkins"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri   bg-gray-800"
+              className="block w-full rounded-md shadow-sm focus:ring h-10"
             />
           </label>
           <label className="block">
@@ -62,14 +62,14 @@ const ContactMe = () => {
             <input
               type="email"
               placeholder="leroy@jenkins.com"
-              className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri   bg-gray-800"
+              className="block w-full rounded-md  shadow-sm focus:ring h-10  "
             />
           </label>
           <label className="block">
             <span className="mb-1">Message</span>
             <textarea
               rows="3"
-              className="block w-full rounded-md focus:ring focus:ri focus:ri   bg-gray-800"
+              className="block w-full textarea textarea-bordered  rounded-md focus:ring focus:ri focus:ri bg-white"
             ></textarea>
           </label>
           <button

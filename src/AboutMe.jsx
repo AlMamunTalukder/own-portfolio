@@ -2,7 +2,7 @@ const AboutMe = () => {
   return (
     <section className="mt-8 shadow-lg">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center w-full p-32 space-y-4 rounded-md lg:h-full lg:p-8  bg-gray-900  text-gray-100">
+        <div className="flex flex-col items-center w-full p-4 space-y-4 rounded-md lg:h-full lg:p-8  bg-gray-900  text-gray-100">
           <h1 className="text-3xl lg:text-6xl mb-5 pl-6 underline">About Me</h1>
           <img
             src="../src/assets/4480087.jpg"
@@ -15,7 +15,7 @@ const AboutMe = () => {
           <blockquote className="max-w-lg text-lg italic font-medium text-center">
             &quot;MERN Stack Web Developer&quot;
           </blockquote>
-          <p className="text-justify p-5">
+          <p className="text-justify lg:p-5">
             I am a mern stack web developer with a vast array of knowledge in
             front-end languages, responsive frameworks, databases and best code
             practices. I have Knowledge of efficiently coding websites and
