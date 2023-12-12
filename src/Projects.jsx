@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/newspaper.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -24,7 +24,7 @@ const Projects = () => {
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href=" https://newspaper-final-assignment.netlify.app/"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
@@ -42,29 +42,29 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/service.png"
               alt="Shoes"
               className="rounded-md"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">News Paper Portal</h2>
+            <h2 className="card-title">Service Provide Website</h2>
             <p className="text-justify">
-              This is a newpaper website name global Times. It has many more
-              features. Here is some features: Login, registration with google
-              login. Subscription system for premium user. Show articles, add
-              articles, articles are difference for premium user and other user.
+              This is a service provide website name Repair Service Hub. Some
+              Top Features are - Log in, Registration service add, Service edit,
+              Service update, Service delete. See my service and also see my
+              booking service. See the Details.
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://fabulous-squirrel-c63dda.netlify.app/"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://github.com/AlMamunTalukder/service-sharing-client"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
               rel="noopener noreferrer"
             >
@@ -75,29 +75,29 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/car-brand-shop.png"
               alt="Shoes"
               className="rounded-md"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">News Paper Portal</h2>
+            <h2 className="card-title">Brand Shop Portal</h2>
             <p className="text-justify">
-              This is a newpaper website name global Times. It has many more
-              features. Here is some features: Login, registration with google
-              login. Subscription system for premium user. Show articles, add
-              articles, articles are difference for premium user and other user.
+              This is a Automotive project where try to create a car website
+              with various brands. In Below, there is at least 5 points of my
+              project - Navbar with Login registration 6 brands of famous car.
+              Show specific car when click on brand name.
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://car-brand-shop.netlify.app"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://github.com/AlMamunTalukder/brandshop-client"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
               rel="noopener noreferrer"
             >
@@ -108,29 +108,28 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/edutechpro9.png"
               alt="Shoes"
               className="rounded-md"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">News Paper Portal</h2>
+            <h2 className="card-title">Educational Events Management System</h2>
             <p className="text-justify">
-              This is a newpaper website name global Times. It has many more
-              features. Here is some features: Login, registration with google
-              login. Subscription system for premium user. Show articles, add
-              articles, articles are difference for premium user and other user.
+              This website is educational events management system name
+              edutechpro. Mainly has Some Features- - Educational events add. -
+              show details - add to cart
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://edutechpro9.netlify.app/"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://github.com/AlMamunTalukder/edu_tech_pro"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
               rel="noopener noreferrer"
             >
@@ -141,29 +140,28 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/donationcapm.png"
               alt="Shoes"
               className="rounded-md"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">News Paper Portal</h2>
+            <h2 className="card-title">Donation Site</h2>
             <p className="text-justify">
-              This is a newpaper website name global Times. It has many more
-              features. Here is some features: Login, registration with google
-              login. Subscription system for premium user. Show articles, add
-              articles, articles are difference for premium user and other user.
+              This is a donation website name donation campaign. The 3 project
+              feature is. Show Data in cards, Details Page, Donates Cards show
+              in donation page. Statastics, Search functionality.
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="http://donationcapm-2023.surge.sh/"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://github.com/AlMamunTalukder/donation-campaign"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
               rel="noopener noreferrer"
             >
@@ -174,29 +172,27 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              src="../src/assets/project/course.png"
               alt="Shoes"
               className="rounded-md"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">News Paper Portal</h2>
+            <h2 className="card-title">Course Registration</h2>
             <p className="text-justify">
               This is a newpaper website name global Times. It has many more
               features. Here is some features: Login, registration with google
-              login. Subscription system for premium user. Show articles, add
-              articles, articles are difference for premium user and other user.
             </p>
 
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://course-r2023.surge.sh/"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
+              href="https://github.com/AlMamunTalukder/course-registration"
               className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
               rel="noopener noreferrer"
             >
