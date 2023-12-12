@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/newspaper.png"
+              src="https://i.ibb.co/yynW5jK/newspaper.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -42,7 +42,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/service.png"
+              src="https://i.ibb.co/3St5p4t/service.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -75,7 +75,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/car-brand-shop.png"
+              src="https://i.ibb.co/SBqLsGC/car-brand-shop.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -108,7 +108,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/edutechpro9.png"
+              src="https://i.ibb.co/zFhg08p/edutechpro9.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -140,7 +140,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/donationcapm.png"
+              src="https://i.ibb.co/t8k1fsr/donationcapm.png"
               alt="Shoes"
               className="rounded-md"
             />
@@ -172,7 +172,7 @@ const Projects = () => {
         <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
           <figure>
             <img
-              src="../src/assets/project/course.png"
+              src="https://i.ibb.co/T4QbMgV/course.png"
               alt="Shoes"
               className="rounded-md"
             />

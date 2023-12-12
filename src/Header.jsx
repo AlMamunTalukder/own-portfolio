@@ -32,7 +32,7 @@ const Header = () => {
 
         <div className="flex items-center lg:items-left">
           <a
-            href="../src/assets/Al_Mamun_Talukder_CV.pdf"
+            href="https://i.ibb.co/ch9MY6M/4480087.jpg"
             download="Al_Mamun_Talukder_CV.pdf"
           >
             <button className="btn btn-outline btn-success my-5 text-xs ml-14 lg:text-lg ">
