@@ -1,4 +1,26 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 const ContactMe = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_qy37urq",
+        "template_jgak3f8",
+        form.current,
+        "hYHFNWwDDEM1kwFWE"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <section className="py-6   bg-gray-800   text-gray-50 text-left">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -46,32 +68,39 @@ const ContactMe = () => {
             </p>
           </div>
         </div>
-        <form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+        <form
+          className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
+          ref={form}
+          onSubmit={sendEmail}
+        >
           <label className="block">
             <span className="mb-1">Full name</span>
             <input
               type="text"
+              name="from_name"
               placeholder="Leroy Jenkins"
-              className="block w-full rounded-md shadow-sm focus:ring h-10"
+              className="block w-full rounded-md shadow-sm focus:ring h-10 text-black"
             />
           </label>
           <label className="block">
             <span className="mb-1">Email address</span>
             <input
               type="email"
+              name="from_email"
               placeholder="leroy@jenkins.com"
-              className="block w-full rounded-md  shadow-sm focus:ring h-10  "
+              className="block w-full rounded-md  shadow-sm focus:ring h-10  text-black"
             />
           </label>
           <label className="block">
             <span className="mb-1">Message</span>
             <textarea
               rows="3"
-              className="block w-full textarea textarea-bordered  rounded-md focus:ring focus:ri focus:ri bg-white"
+              name="message"
+              className="block w-full textarea textarea-bordered  rounded-md focus:ring focus:ri focus:ri bg-white text-black"
             ></textarea>
           </label>
           <button
-            type="button"
+            type="submit"
             className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri   bg-violet-400   text-gray-900 focus:ri hover:ri"
           >
             Submit
