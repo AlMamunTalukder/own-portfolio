@@ -1,8 +1,8 @@
 const AboutMe = () => {
   return (
-    <section className="mt-8 shadow-lg">
+    <section className="mt-8 shadow-lg bg-black bg-opacity-50">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center w-full p-4 space-y-4 rounded-md lg:h-full lg:p-8  bg-gray-900  text-gray-100">
+        <div className="flex flex-col items-center w-full p-4 space-y-4 rounded-md lg:h-full lg:p-8    text-gray-100">
           <h1 className="text-3xl lg:text-6xl mb-5 pl-6 underline">About Me</h1>
           <img
             src="https://i.ibb.co/ch9MY6M/4480087.jpg"

@@ -13,7 +13,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 shadow-lg rounded-md">
+    <div className="navbar bg-black bg-opacity-50 shadow-lg rounded-md transparent">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -39,7 +39,12 @@ const Navbar = () => {
             {navSection}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Talukder</a>
+        <a className="btn btn-ghost text-xl">
+          <img
+            src="https://i.ibb.co/gJBg7bk/Black-White-Minimalist-SImple-Monogram-Typography-Logo.png"
+            className="w-10"
+          />
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navSection}</ul>

@@ -1,6 +1,6 @@
 const ProgrammingLanguage = () => {
   return (
-    <section className=" bg-gray-200 rounded text-gray-100 shadow-lg">
+    <section className=" bg-black bg-opacity-50 rounded text-gray-100 shadow-lg">
       <div className="container p-6 mx-auto space-y-6 text-center lg:p-8 lg:space-y-8">
         <h2 className="text-3xl font-bold text-black underline">
           Fully compatible with

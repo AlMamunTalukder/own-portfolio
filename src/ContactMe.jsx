@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Swal from "sweetalert2";
 const ContactMe = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -15,14 +16,24 @@ const ContactMe = () => {
       .then(
         (result) => {
           console.log(result.text);
+          Swal.fire({
+            icon: "success",
+            title: "Email Sent Successfully",
+            text: "We will get back to you soon!",
+          });
         },
         (error) => {
           console.log(error.text);
+          Swal.fire({
+            icon: "error",
+            title: "Error Sending Email",
+            text: "Please try again later.",
+          });
         }
       );
   };
   return (
-    <section className="py-6   bg-gray-800   text-gray-50 text-left">
+    <section className="py-6 text-gray-50 text-left bg-black bg-opacity-50 rounded-lg">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
           <h1 className="text-4xl font-bold">Get in touch</h1>

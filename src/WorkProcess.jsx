@@ -5,7 +5,7 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { PiLaptopLight } from "react-icons/pi";
 const WorkProcess = () => {
   return (
-    <section className=" bg-gray-800  text-gray-100 lg:my-10 shadow-lg  rounded-md">
+    <section className="text-gray-100 lg:my-10 shadow-lg  rounded-md bg-black bg-opacity-50">
       <div className="container lg:px-6 lg:py-12 mx-auto">
         <div className="grid items-center lg:gap-4 xl:grid-cols-5">
           <div className="max-w-2xl mx-auto my-2 lg:my-4 lg:space-y-2 text-center xl:col-span-2 xl:text-left">

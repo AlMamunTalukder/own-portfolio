@@ -1,10 +1,10 @@
 import DP from "../src/assets/4480087.jpg";
-import { FaDownload } from "react-icons/fa";
+
 import { Typewriter } from "react-simple-typewriter";
 
 const Header = () => {
   return (
-    <div className="lg:flex lg:mt-20 lg:gap-28 lg:ml-16 items-center content-center text-center mb-12 ">
+    <div className="lg:flex lg:mt-20 lg:gap-28 lg:ml-16 items-center content-center text-center py-10 bg-black bg-opacity-50">
       <div className="text-left  lg:pr-3 ">
         <h1 className="text-3xl lg:text-7xl mb-5 pl-6">
           Hello, I’m <br />
@@ -16,7 +16,7 @@ const Header = () => {
           <span className="font-serif text-green-500 font-bold">
             <Typewriter
               words={[
-                "Fontend Web Developer",
+                "Frontend Web Developer",
                 "REACT Developer",
                 "MERN Stack Web Developer",
               ]}
@@ -37,7 +37,7 @@ const Header = () => {
           >
             <button className="btn btn-outline btn-success my-5 text-xs ml-14 lg:text-lg ">
               Download Resume
-              <FaDownload />
+              <img src="../src/assets/download.gif" className="w-5" />
             </button>
           </a>
         </div>

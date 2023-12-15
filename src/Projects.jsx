@@ -1,12 +1,12 @@
 const Projects = () => {
   return (
-    <>
+    <div className="bg-black bg-opacity-50 mt-56">
       <h1 className="text-3xl lg:text-6xl  pl-6 pb-5 font-serif text-orange-400 underline">
         Projects
       </h1>
 
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-y-5">
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-y-5 ml-4">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/yynW5jK/newspaper.png"
@@ -39,7 +39,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/3St5p4t/service.png"
@@ -72,7 +72,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/SBqLsGC/car-brand-shop.png"
@@ -105,7 +105,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/zFhg08p/edutechpro9.png"
@@ -137,7 +137,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/t8k1fsr/donationcapm.png"
@@ -169,7 +169,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-base-100 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-white bg-opacity-60 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/T4QbMgV/course.png"
@@ -201,7 +201,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
