@@ -13,7 +13,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-black bg-opacity-50 shadow-lg rounded-md transparent">
+    <div className="navbar bg-white bg-opacity-10 shadow-lg rounded-full transparent">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           href="https://github.com/AlMamunTalukder"
-          className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full "
+          className="btn-sm bg-yellow-400 rounded-full pt-1 lg:btn lg:bg-yellow-400 lg:rounded-full font-black text-black"
           target="_blank"
           rel="noopener noreferrer"
         >

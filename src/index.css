@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.parallax {
-  background: url(../src/assets/project/1.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  position: relative;
+  background: url(../src/assets/project/rm218-bb-07.jpg);
   background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body .blurDiv {
+  width: 2200px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(3px);
+  color: white;
 }
