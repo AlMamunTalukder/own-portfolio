@@ -15,7 +15,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56 ">
+          <div className="card-body -mt-14 lg:-mt-5 h-60 lg:h-56 ">
             <h2 className="card-title">News Paper Portal</h2>
             <p className="text-justify">
               This is a newpaper website name global Times. It has many more
@@ -27,7 +27,7 @@ const Projects = () => {
           <div className="card-body flex-grow">
             <a
               href="https://newspaper-final-assignment.netlify.app/"
-              className="btn-sm bg-green-400 rounded-full pt-1 mb-1 lg:mb-0 lg:btn lg:bg-green-400 lg:rounded-full justify-start text-black lg:text-black lg:hover:text-white"
+              className="btn-sm bg-green-400 rounded-full pt-1  lg:mb-0 lg:btn lg:bg-green-400 lg:rounded-full justify-start text-black lg:text-black lg:hover:text-white"
               rel="noopener noreferrer"
             >
               Live Link
@@ -50,7 +50,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56">
+          <div className="card-body -mt-14 lg:-mt-5 h-56">
             <h2 className="card-title ">Service Provide Website</h2>
             <p className="text-justify">
               This is a service provide website name Repair Service Hub. Some
@@ -85,7 +85,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56">
+          <div className="card-body -mt-14 lg:-mt-5 h-56">
             <h2 className="card-title ">Brand Shop Portal</h2>
             <p className="text-justify">
               This is a Automotive project where try to create a car website
@@ -120,7 +120,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56">
+          <div className="card-body -mt-14 lg:-mt-5 h-56">
             <h2 className="card-title text-left ">
               Educational Events Management System
             </h2>
@@ -156,7 +156,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56">
+          <div className="card-body -mt-14 lg:-mt-5 h-56">
             <h2 className="card-title">Donation Site</h2>
             <p className="text-justify">
               This is a donation website name donation campaign. The 3 project
@@ -191,7 +191,7 @@ const Projects = () => {
               className="rounded-md"
             />
           </figure>
-          <div className="card-body lg:-mt-5 h-56">
+          <div className="card-body -mt-14 lg:-mt-5 h-56">
             <h2 className="card-title">Course Registration</h2>
             <p className="text-justify">
               This is a newpaper website name global Times. It has many more
