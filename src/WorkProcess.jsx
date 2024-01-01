@@ -5,9 +5,9 @@ import { IoAnalyticsOutline } from "react-icons/io5";
 import { PiLaptopLight } from "react-icons/pi";
 const WorkProcess = () => {
   return (
-    <section className="text-gray-100 lg:my-10 shadow-lg  rounded-md bg-black bg-opacity-50">
-      <div className="container lg:px-6 lg:py-12 mx-auto">
-        <div className="grid items-center lg:gap-4 xl:grid-cols-5">
+    <section className="text-gray-100  lg:my-10 shadow-lg  rounded-md bg-black bg-opacity-20">
+      <div className="container md:px-6 lg:px-2 lg:py-2 mx-auto md:py-5">
+        <div className="grid items-center md:gap-2 lg:gap-4 xl:grid-cols-5">
           <div className="max-w-2xl mx-auto my-2 lg:my-4 lg:space-y-2 text-center xl:col-span-2 xl:text-left">
             <h2 className="text-4xl font-bold ">Work Process</h2>
             <div className="flex  gap-2 justify-center">
@@ -15,10 +15,10 @@ const WorkProcess = () => {
               <FaArrowRight className="mt-1" />
             </div>
           </div>
-          <div className="lg:p-6 lg:col-span-3">
-            <div className="grid ml-6 md:grid-cols-2 my-4">
+          <div className="lg:p-6 lg:col-span-3 ">
+            <div className="grid mx-12 lg:ml-2 md:grid-cols-2 my-4 lg:gap-10">
               <div className="grid text-left gap-4 lg:ml-10 mb-5">
-                <div className="p-3 rounded shadow-md w-64 bg-gray-900">
+                <div className="p-3 rounded shadow-md w-64 bg-white bg-opacity-20">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">
                       <GrNotes className="w-6 h-6" />
@@ -30,7 +30,7 @@ const WorkProcess = () => {
                     Using Agile Methodology with MoSCoW Prioritize.{" "}
                   </p>
                 </div>
-                <div className="p-3 rounded shadow-md w-64 bg-gray-900">
+                <div className="p-3 rounded shadow-md w-64 bg-white bg-opacity-20">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">
                       <SlPencil className="w-6 h-6" />
@@ -45,8 +45,8 @@ const WorkProcess = () => {
                 </div>
               </div>
 
-              <div className="grid text-left gap-4 lg:mt-5">
-                <div className="p-3 rounded shadow-md w-64 bg-gray-900">
+              <div className="grid text-left gap-4 lg:mt-10">
+                <div className="p-3 rounded shadow-md w-64 bg-white bg-opacity-20">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">
                       <IoAnalyticsOutline className="w-6 h-6" />
@@ -61,7 +61,7 @@ const WorkProcess = () => {
                     Definition.{" "}
                   </p>
                 </div>
-                <div className="p-3 rounded shadow-md w-64 bg-gray-900">
+                <div className="p-3 rounded shadow-md w-64   pb-9 bg-white bg-opacity-20">
                   <div className="flex items-center  space-x-4 ">
                     <button className="w-12 h-12 rounded pl-3 mb-3 bg-violet-400 hover:bg-violet-600">
                       <PiLaptopLight className="w-6 h-6" />

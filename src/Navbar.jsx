@@ -42,7 +42,7 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl">
           <img
             src="https://i.ibb.co/gJBg7bk/Black-White-Minimalist-SImple-Monogram-Typography-Logo.png"
-            className="w-10"
+            className="w-8 rounded lg:w-10"
           />
         </a>
       </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           href="https://github.com/AlMamunTalukder"
-          className="btn-sm bg-yellow-400 rounded-full pt-1 lg:btn lg:bg-yellow-400 lg:rounded-full font-black text-black"
+          className="btn-sm bg-yellow-300 text-black lg:btn lg:btn-warning  rounded-full pt-1  lg:rounded-full  lg:text-black  "
           target="_blank"
           rel="noopener noreferrer"
         >

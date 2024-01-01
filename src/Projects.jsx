@@ -1,12 +1,12 @@
 const Projects = () => {
   return (
-    <div className="bg-black bg-opacity-50 mt-56">
-      <h1 className="text-3xl lg:text-6xl  pl-6 pb-5 font-serif text-orange-400 underline">
+    <div className="bg-black bg-opacity-20 mt-56 rounded-md">
+      <h1 className="text-3xl lg:text-6xl  pl-6 py-8 font-serif text-orange-400 underline">
         Projects
       </h1>
 
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-y-5 ml-4 pb-8">
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-y-5 pb-8 px-4">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/yynW5jK/newspaper.png"
@@ -22,24 +22,25 @@ const Projects = () => {
               login. Subscription system for premium user. Show articles, add
               articles, articles are difference for premium user and other user.
             </p>
-
-            <a
-              href=" https://newspaper-final-assignment.netlify.app/"
-              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
-              rel="noopener noreferrer"
-            >
-              Live Link
-            </a>
-            <a
-              href="https://github.com/AlMamunTalukder/newspaper-client"
-              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
-              rel="noopener noreferrer"
-            >
-              Github Link
-            </a>
+            <div className="flex gap-2 items-center text-center">
+              <a
+                href=" https://newspaper-final-assignment.netlify.app/"
+                className="btn-sm bg-green-400 rounded-full pt-1 lg:btn lg:bg-green-400 lg:rounded-full justify-start text-white lg:text-white "
+                rel="noopener noreferrer"
+              >
+                Live Link
+              </a>
+              <a
+                href="https://github.com/AlMamunTalukder/newspaper-client"
+                className="btn-sm bg-gray-400 rounded-full pt-1 lg:btn lg:bg-gray-400 text-white lg:text-black lg:rounded-full justify-end"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </div>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/3St5p4t/service.png"
@@ -58,21 +59,21 @@ const Projects = () => {
 
             <a
               href="https://fabulous-squirrel-c63dda.netlify.app/"
-              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-start"
+              className="btn-sm bg-green-400 rounded-full pt-1 lg:btn lg:bg-green-400 lg:rounded-full justify-start text-black lg:text-black"
               rel="noopener noreferrer"
             >
               Live Link
             </a>
             <a
               href="https://github.com/AlMamunTalukder/service-sharing-client"
-              className="btn-sm bg-orange-400 rounded-full pt-1 lg:btn lg:bg-orange-400 lg:rounded-full justify-end"
+              className="btn-sm bg-gray-400 rounded-full pt-1 lg:btn lg:bg-gray-400 lg:rounded-full justify-end text-white lg:text-white"
               rel="noopener noreferrer"
             >
               Github Link
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/SBqLsGC/car-brand-shop.png"
@@ -105,7 +106,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/zFhg08p/edutechpro9.png"
@@ -137,7 +138,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/t8k1fsr/donationcapm.png"
@@ -169,7 +170,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="rounded-md lg:w-96 bg-black bg-opacity-60 shadow-xl ">
+        <div className="rounded-md lg:w-96 bg-gray-500 bg-opacity-20 shadow-xl ">
           <figure>
             <img
               src="https://i.ibb.co/T4QbMgV/course.png"

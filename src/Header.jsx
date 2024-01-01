@@ -1,24 +1,26 @@
-import DP from "../src/assets/4480087.jpg";
+import DP from "../src/assets/dp.png";
 
 import { Typewriter } from "react-simple-typewriter";
 
 const Header = () => {
   return (
-    <div className="lg:flex lg:mt-20 lg:gap-28 lg:ml-16 items-center content-center text-center py-10 ">
-      <div className="text-left  lg:pr-3 ">
+    <div className="md:flex md:mt-20 md:gap-28 md:mx-16 lg:flex lg:mt-20 lg:gap-28 lg:mx-16 items-center content-center text-center py-10 gap-6">
+      <div className="text-left  lg:pr-14 ">
         <h1 className="text-3xl lg:text-7xl mb-5 pl-6">
           Hello, I’m <br />
-          <span className="text-orange-500">Al Mamun Talukder</span>
+          <span className="text-orange-500 md:text-4xl lg:text-6xl">
+            Al Mamun Talukder
+          </span>
         </h1>
 
-        <h1 className="text-sm lg:text-3xl pl-6">
+        <h1 className="text-sm lg:text-2xl px-6">
           I am a{" "}
           <span className="font-serif text-green-500 font-bold">
             <Typewriter
               words={[
+                "MERN Stack Web Developer",
                 "Frontend Web Developer",
                 "REACT Developer",
-                "MERN Stack Web Developer",
               ]}
               loop
               cursor
@@ -32,13 +34,12 @@ const Header = () => {
 
         <div className="flex items-center lg:items-left">
           <a
-            href="https://i.ibb.co/ch9MY6M/4480087.jpg"
-            download="Al_Mamun_Talukder_CV.pdf"
+            href="https://drive.google.com/file/d/1tkhqYwbrXNRBS5jdff28NfqI3Q-DuncK/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline btn-success my-5 text-xs ml-14 lg:text-lg"
           >
-            <button className="btn btn-outline btn-success my-5 text-xs ml-14 lg:text-lg ">
-              Download Resume
-              <img src="../src/assets/download.gif" className="w-5" />
-            </button>
+            My Resume
           </a>
         </div>
       </div>
