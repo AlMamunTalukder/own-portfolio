@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer items-center text-center p-4 bg-white bg-opacity-10  shadow-lg rounded-md lg:items-center lg:text-center">
+    <footer className="footer items-center text-center p-6 lg:p-4 bg-white bg-opacity-10  shadow-lg rounded-md lg:items-center lg:text-center ">
       {/* <div className="place-self-center md:place-self-center lg:place-self-start flex"> */}
       <img
         src="https://i.ibb.co/gJBg7bk/Black-White-Minimalist-SImple-Monogram-Typography-Logo.png"
@@ -13,6 +13,8 @@ const Footer = () => {
         </p>
       </aside>
       {/* </div> */}
+
+      {/* icon */}
       <nav className="grid-flow-col gap-4 place-self-center md:place-self-center md:justify-self-end">
         {/* twitter */}
         <a href="https://twitter.com/iam_talukder">

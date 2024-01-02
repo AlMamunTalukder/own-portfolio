@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const Navbar = () => {
   const navSection = (
     <>
@@ -50,14 +51,20 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navSection}</ul>
       </div>
       <div className="navbar-end">
-        <a
-          href="https://github.com/AlMamunTalukder"
-          className="btn-sm bg-yellow-300 text-black lg:btn lg:btn-warning  rounded-full pt-1  lg:rounded-full  lg:text-black  "
-          target="_blank"
-          rel="noopener noreferrer"
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          onHoverStart={() => {}}
+          onHoverEnd={() => {}}
         >
-          Github Profile
-        </a>
+          <a
+            href="https://github.com/AlMamunTalukder"
+            className="btn-sm bg-yellow-300 text-black lg:btn lg:btn-warning  rounded-full pt-1  lg:rounded-full  lg:text-black  "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github Profile
+          </a>
+        </motion.a>
       </div>
     </div>
   );

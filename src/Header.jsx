@@ -1,7 +1,6 @@
 import DP from "../src/assets/dp.png";
-
 import { Typewriter } from "react-simple-typewriter";
-
+import { motion } from "framer-motion";
 const Header = () => {
   return (
     <div className="md:flex md:mt-20 md:gap-28 md:mx-16 lg:flex lg:mt-20 lg:gap-28 items-center content-center text-center lg:items-center lg:content-center lg:text-center md:py-10 lg:py-10 gap-6">
@@ -33,14 +32,17 @@ const Header = () => {
         </h1>
 
         <div className=" items-center content-center text-center lg:items-center lg:content-center lg:text-left">
-          <a
+          <motion.a
+            whileHover={{ scale: 1.1 }}
+            onHoverStart={() => {}}
+            onHoverEnd={() => {}}
             href="https://drive.google.com/file/d/1tkhqYwbrXNRBS5jdff28NfqI3Q-DuncK/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline btn-success my-5 text-xs   lg:text-lg"
           >
             My Resume
-          </a>
+          </motion.a>
         </div>
       </div>
       <div className="w-52 lg:pl-20 lg:w-72 ml-16 md:ml-0 lg:ml-0">
